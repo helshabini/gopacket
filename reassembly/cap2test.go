@@ -16,9 +16,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
+	"github.com/helshabini/gopacket"
+	"github.com/helshabini/gopacket/layers"
+	"github.com/helshabini/gopacket/pcap"
 )
 
 var input = flag.String("i", "", "Input filename")
